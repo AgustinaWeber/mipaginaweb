@@ -1,0 +1,73 @@
+h1{
+color: #DFA092 ;
+background-color: #BDF5DC;
+
+}
+
+body{
+    background-image: url("../img/fondo\ de\ pantalla\ 2.0.jpg");
+
+    background-size: cover; 
+}
+span{color: chocolate;}
+
+.titulo{
+    background-color: rgb(231, 195, 209);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#imagen{
+    width: 300px;
+    height: 200px;
+}
+.color{
+    color: darkseagreen;
+}
+
+.parrafo{
+    background-color: honeydew;
+    color: darkblue;
+    margin: 50px;
+    padding: 60px;
+    border: dotted 4px brown;
+
+
+}
+
+footer{
+    background-color: deepskyblue;
+}
+
+.flex{
+    display: flex;
+}
+
+.barra{
+    display: flex;
+    justify-content:space-around;
+    background-color: darksalmon;
+    font-size: larger;
+    padding: 8px;
+}
+.barra li{
+    list-style:none ;
+}
+
+.barra li a{
+    text-decoration: none;
+    color: rgb(18, 122, 124);
+}
+
+.barra li a:hover{
+    background-color: lightpink;
+    color: paleturquoise;
+    font-size: 20px;
+}
+
+.barra li a:active{
+    background-color: powderblue;
+    color: violet;
+    font-size: 20px;
+}
+
+
